@@ -42,7 +42,7 @@
             <form action="editar.php" method="post">
                 <td scope="row"><?php echo $id; ?></td>
                 <td>        <input type="text" name="nome" value="<?php echo $nome; ?>">         </td>
-                <td>        <input type="text" name="email" value="<?php echo $email; ?>">       </td>
+                <td>        <input type="email" name="email" value="<?php echo $email; ?>">       </td>
                 <td>        <input type="password" name="senha" value="<?php echo $senha; ?>">         </td>
                 <td>
                 <input type="hidden" name="id" value="<?php echo $id; ?>"> 
