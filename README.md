@@ -7,3 +7,8 @@ Uso de linguagens, como: HTML e CSS
 Uso do framework Bootstrap para realização de um layout responsivo para o projeto.
 Configuração do Projeto:
 Executar a query cadastro_clientes.sql ou importar o arquivo no phpMyAdmin para criar a tabela necessária.
+
+$host = 'localhost';
+$user = 'root';
+$passwd = '';
+$db_name = 'cadastro_clientes';
